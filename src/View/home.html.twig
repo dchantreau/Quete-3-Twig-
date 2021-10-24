@@ -1,0 +1,9 @@
+    {#_layout.html.twig#}
+        {% extends '_layout.html.twig' %}
+            {% block title %}
+                {{ parent() }} - Accueil
+            {% endblock %}
+    {% block content %}
+            {{ parent() }} 
+            <br> Hello admin !
+    {% endblock %}
