@@ -25,9 +25,10 @@
         </div>
     {% endblock %}
 <footer>
-    <p>
-        Voici mon adresse mail {{contactEmail}}.
-    </p>
+<body>
+{% block footer %}{% include '_footer.html.twig' %}{% endblock %}
+</body>
+</html>
 </footer>
 </body>
 </html>
